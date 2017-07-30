@@ -8,6 +8,6 @@ var Book = function(author, title, genre, pages, price){
 
 Book.prototype.getAllInfo = function() {
   return "author: " + this.author + ", " + "title: " + this.title + ", " + "genre: " + this.genre + ", " + "pages: " + this.pages + ", " + "price: " + this.price;
-    },
+},
 
 module.exports = Book;
